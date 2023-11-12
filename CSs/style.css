@@ -1,0 +1,261 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(99, 98, 98);
+    position: fixed;
+    width: 100%;
+    border-bottom: solid rgba(255, 255, 255, 0.404) 1px;
+    z-index: 1;
+    color: white;
+    padding: 0.6rem;
+}
+
+.icon{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 35px 35px 30px;
+    gap: 1rem;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+li {
+    display: inline-block;
+    
+}
+
+li:hover {
+    text-decoration: underline skyblue 2px;
+    text-underline-offset: 10px;
+}
+a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Home Section */
+
+#home {
+    height: 100vh;
+    background-color: rgb(99, 98, 98);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 1rem;
+}
+
+.img-cont {
+    background-color: #FDC8DA;
+    height: 100vh;
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10rem;
+}
+
+.pfp {
+    filter: drop-shadow(0 0 30px black);
+    border-bottom: solid 2px black;
+}
+
+.btn1{
+    height: 35px;
+    width: 150px;
+    border: solid 1px black;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: skyblue;
+}
+
+/* portfolio */
+
+#portfolio {
+    height: 100%;
+    background-color: white;
+    padding: 4rem 0 4rem 0;
+}
+
+.img3{
+    border-top: solid 2px black;
+    border-left: solid 2px black;
+}
+
+.my-projects {
+    font-weight: 700;
+    text-shadow: 1px 1px 2px black;
+    font-size: 3rem;
+    color: skyblue;
+}
+
+@media only screen and (min-width: 768px) {
+    .project-cont {
+        display: flex; 
+        justify-content: center; 
+        align-items: center;
+    }
+    .my-projects {
+        margin-bottom: 25px;
+    }
+    .h2-introduction {
+        background-color: #FDC8DA;
+        padding: 1rem;
+        color: white;
+        font-size: 1.5rem;
+        text-shadow: 1px 1px 3px black;
+        height: 50%;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #cert {
+        height: 100%;
+        background-color: skyblue;
+        padding: 20rem 0;
+    }
+    .my-certs {
+        font-weight: 700;
+        text-shadow: 1px 1px 2px black;
+        font-size: 3rem;
+        color:#FDC8DA;
+        margin-bottom: 5rem;
+    }
+    #About {
+        height: 100%;
+        padding: 20rem 0;
+        background-color: rgb(99, 98, 98);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+   
+}
+
+@media only screen and (max-width: 767px) {
+    .project-cont {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .disc {
+        padding: 1rem;
+    }
+
+    .img3 {
+        border-bottom: solid 2px black;
+    }
+    #portfolio {
+        margin: 10px 0;
+    }
+    .my-projects {
+        margin-bottom: 15px;
+    }
+    .introduction-cont {
+        background-color: #FDC8DA;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 4rem;
+    }
+    .h2-introduction {
+        font-size: 12px;
+    }
+
+    #cert {
+        height: 100%;
+        background-color: skyblue;
+        padding-top: 5rem;
+    }
+    .my-certs {
+        font-weight: 700;
+        text-shadow: 1px 1px 2px black;
+        font-size: 2rem;
+        color:#FDC8DA;
+        margin-bottom: 1rem;
+    }
+    #About {
+        height: 100%;
+        padding: 5rem 0;
+        background-color: rgb(99, 98, 98);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+.introduction-cont {
+    background-color: #FDC8DA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+    width: 50%;
+}
+.h2-introduction {
+    background-color: #FDC8DA;
+    border: solid 2px black;
+    padding: 1rem;
+    color: white;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 3px black;
+}
+.kk {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.abt-me{
+    font-weight: 700;
+    text-shadow: 1px 1px 2px black;
+    font-size: 3rem;
+    color: skyblue;
+}
+
+
+
+.my-certs {
+    font-weight: 700;
+    text-shadow: 1px 1px 2px black;
+    font-size: 3rem;
+    color:#FDC8DA;
+    margin-bottom: 5rem;
+}
+
+#footer {
+    display: block;
+    background-color: black;
+    height: 100%;
+    padding: 2rem 0 0 0;
+    text-align: center;
+}
