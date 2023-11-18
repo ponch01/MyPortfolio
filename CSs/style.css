@@ -51,7 +51,8 @@ a {
 /* Home Section */
 
 #home {
-    height: 100vh;
+    height: 150%;
+    padding: 0 10rem;
     background-color: rgb(99, 98, 98);
     display: flex;
     align-items: center;
@@ -62,24 +63,28 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10rem;
+    gap: 5rem;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
-    padding: 1rem;
+    padding: 0 1rem;
 }
 
 .img-cont {
     background-color: #FDC8DA;
     height: 100vh;
+    max-height: 900px;
     width: 50vh;
     display: flex;
     flex-direction: column;
-    padding-top: 10rem;
+    padding: 10rem 1rem;
 }
 
 .pfp {
     filter: drop-shadow(0 0 30px black);
     border-bottom: solid 2px black;
+    height: 300px;
+    border-radius: 50%;
+    margin-bottom: 3rem;
 }
 
 .btn1{
@@ -100,6 +105,8 @@ a {
     height: 100%;
     background-color: white;
     padding: 4rem 0 4rem 0;
+    border: solid 1px black;
+    border-radius: 10px;
 }
 
 .img3{
@@ -124,16 +131,9 @@ a {
         margin-bottom: 25px;
     }
     .h2-introduction {
-        background-color: #FDC8DA;
-        padding: 1rem;
         color: white;
         font-size: 1.5rem;
         text-shadow: 1px 1px 3px black;
-        height: 50%;
-        width: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 
     #cert {
@@ -150,11 +150,29 @@ a {
     }
     #About {
         height: 100%;
-        padding: 20rem 0;
+        padding: 20rem 1rem;
         background-color: rgb(99, 98, 98);
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    .pfp2 {
+        height: 350px;
+        border-radius: 50%;
+        border: solid 1px black;
+    }
+
+    .junk {
+        display: flex;
+        flex-direction: column;
+        background-color: #FDC8DA;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 5rem 1rem;
+        row-gap: 4rem;
+        border-radius: 10px;
     }
    
 }
@@ -203,11 +221,23 @@ a {
     }
     #About {
         height: 100%;
-        padding: 5rem 0;
+        padding: 5rem 1rem;
         background-color: rgb(99, 98, 98);
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    .junk {
+        display: flex;
+        flex-direction: column;
+        background-color: #FDC8DA;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 5rem 1rem;
+        row-gap: 4rem;
+        border-radius: 10px;
     }
 }
 
@@ -221,9 +251,6 @@ a {
     width: 50%;
 }
 .h2-introduction {
-    background-color: #FDC8DA;
-    border: solid 2px black;
-    padding: 1rem;
     color: white;
     font-size: 1.5rem;
     text-shadow: 1px 1px 3px black;

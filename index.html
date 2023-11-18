@@ -10,6 +10,8 @@
     <!-- Css Link -->
     <link rel="stylesheet" href="./CSs/style.css">
 
+    <link rel="icon" type="image/x-icon" href="./img/j.png">
+
     <title>My Portfolio</title>
 </head>
 
@@ -21,117 +23,128 @@
 
 
 <body>
-    <section>
-        <nav>
-            <h2 style="font-size: 1.5rem;
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                font-weight: 900; text-decoration: underline; color: #FDC8DA; text-shadow: 1px 1px 4px black;">
-                    Jeilah
-            </h2>
-            <ul class="hidden w-full md:flex md:items-center md:w-auto ul-ui-container">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#About">About</a></li>
-                <li><a href="#cert">Certificates</a></li>
-            </ul>
-            <div class="icon hidden w-full md:flex md:items-center md:w-auto ul-ui-container">
-                <img style="height: 35px;" src="./img/icons8-linkedin-48.png" alt="">
-                <img style="height: 35px;" src="./img/icons8-facebook-48.png" alt="">
-                <img style="height: 28px; border-radius: 5px;" src="./img/icons8-instagram-24.png" alt="">
+    <section style="max-width: 140rem; margin: 0 auto;">
+        <section>
+            <nav style="max-width: 140rem; margin: 0 auto;">
+                <h2 style="font-size: 1.5rem;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    font-weight: 900; text-decoration: underline; color: #FDC8DA; text-shadow: 1px 1px 4px black;">
+                        Jeilah
+                </h2>
+                <ul class="hidden w-full md:flex md:items-center md:w-auto ul-ui-container">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#cert">Certificates</a></li>
+                </ul>
+                <div class="icon hidden w-full md:flex md:items-center md:w-auto ul-ui-container">
+                    <img style="height: 35px;" src="./img/icons8-linkedin-48.png" alt="">
+                    <img style="height: 35px;" src="./img/icons8-facebook-48.png" alt="">
+                    <img style="height: 28px; border-radius: 5px;" src="./img/icons8-instagram-24.png" alt="">
+                </div>
+            </nav>
+        </section>
+    
+        <section id="home">
+            <div class="main-cont">
+                <div class="disc" style="display: flex; flex-direction: column;">
+                    <h3 style="color: skyblue; text-shadow: 0 0 10px black; font-weight: 700; font-size: 1.2rem;">
+                        Web Designer
+                        <hr>
+                    </h3>
+                    <br><br>
+    
+                    <H1 style="
+                        font-weight: 400; font-size: 1.5rem;">
+                        Hi, I am <strong style="color: #FDC8DA; font-weight: 700 !important; 
+                        text-shadow: 1px 1px 5px black;">JEILAH PECSON,</strong> a web designer <br>and I like coding and designing.
+                    </H1>
+                    <br>
+                    <p style="color: rgba(255, 255, 255, 0.37); font-weight: 400;">I'm a frontend developer who writes clean, readable and <br>
+                        easy to understand code.
+                    </p><br>
+                    <button class="btn1">
+                        Message me
+                    </button>
+                </div>
+                <div  class="img-cont hidden w-full md:flex md:items-center md:w-auto ul-ui-container"> 
+                        <img class="pfp" src="./img/prof.jpg" alt="image">
+                        <p style="color: rgba(0, 0, 0, 0.63);">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci, autem? lorem</p>
+                        <p style="color: rgba(0, 0, 0, 0.404);">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci, autem? lorem</p>
+                        <p style="color: rgba(0, 0, 0, 0.212);">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci, autem? lorem</p>
+                </div>
             </div>
-        </nav>
-    </section>
-
-    <section id="home">
-        <div class="main-cont">
-            <div class="disc" style="display: flex; flex-direction: column;">
-                <h3 style="color: skyblue; text-shadow: 0 0 10px black; font-weight: 700; font-size: 1.2rem;">
-                    Web Designer
-                    <hr>
-                </h3>
+        </section>
+    
+        <section id="portfolio">
+            <div style="text-align: center;">
+                <h1 class="my-projects">My Projects</h1>
+            </div>
+            <div>
+                <div class="project-cont" style="display: flex; gap: 1rem;">
+                    <div>
+                        <img style="height: 300px;" src="./img/design2.png" alt="">
+                    </div>
+                    <div>
+                        <img style="height: 300px;" src="./img/design3.png" alt="">
+                    </div>
+                    <div class="img3">
+                        <img style="height: 294px;" src="./img/design4.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section id="About">
+            <div class="kk">
+                <h1 class="abt-me">About Me</h1>
                 <br><br>
-
-                <H1 style="
-                    font-weight: 400; font-size: 1.5rem;">
-                    Hi, I am <strong style="color: #FDC8DA; font-weight: 700 !important; 
-                    text-shadow: 1px 1px 5px black;">JEILAH PECSON,</strong> a web designer <br>and I like coding and designing.
-                </H1>
-                <br>
-                <p style="color: rgba(255, 255, 255, 0.37); font-weight: 400;">I'm a frontend developer who writes clean, readable and <br>
-                    easy to understand code.
-                </p><br>
-                <button class="btn1">
-                    Message me
-                </button>
-            </div>
-            <div  class="img-cont hidden w-full md:flex md:items-center md:w-auto ul-ui-container"> 
-                    <img class="pfp" src="./img/portrait-3190849-removebg-preview.png" alt="imgage">
-                    <p style="color: rgba(0, 0, 0, 0.63);">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci, autem? lorem</p>
-                    <p style="color: rgba(0, 0, 0, 0.404);">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci, autem? lorem</p>
-                    <p style="color: rgba(0, 0, 0, 0.212);">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci, autem? lorem</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="portfolio">
-        <div style="text-align: center;">
-            <h1 class="my-projects">My Projects</h1>
-        </div>
-        <div>
-            <div class="project-cont" style="display: flex; gap: 1rem;">
-                <div>
-                    <img style="height: 300px;" src="./img/design2.png" alt="">
-                </div>
-                <div>
-                    <img style="height: 300px;" src="./img/design3.png" alt="">
-                </div>
-                <div class="img3">
-                    <img style="height: 294px;" src="./img/design4.png" alt="">
+                <div class="junk">
+                    <div>
+                        <img class="pfp2" src="./img/prof.jpg" alt="">
+                    </div>
+                    <h2 class="h2-introduction">
+                        Greetings! I'm Jeilah Pecson, the digital artisan behind the screen, where lines of 
+                        code transform into captivating online experiences. As a Web Developer, I specialize 
+                        in crafting websites that are not just functional but visually arresting, a fusion of 
+                        innovation and aesthetics. My digital playground is adorned with unique and eye-catching 
+                        designs that invite users to explore and engage. Beyond the realms of coding, I wield the 
+                        magic of photo editing, seamlessly blending creativity into pixels. Join me on this journey 
+                        where technology meets artistry, and let's bring your digital dreams to life!
+                    </h2>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <section id="About">
-        <div class="kk">
-            <h1 class="abt-me">About Me</h1>
-            <h2 class="h2-introduction">
-                Greetings! I'm Jeilah Pecson, the digital artisan behind the screen, where lines of 
-                code transform into captivating online experiences. As a Web Developer, I specialize 
-                in crafting websites that are not just functional but visually arresting, a fusion of 
-                innovation and aesthetics. My digital playground is adorned with unique and eye-catching 
-                designs that invite users to explore and engage. Beyond the realms of coding, I wield the 
-                magic of photo editing, seamlessly blending creativity into pixels. Join me on this journey 
-                where technology meets artistry, and let's bring your digital dreams to life!
-            </h2>
-        </div>
-    </section>
-
-    <section id="cert">
-        <div style="text-align: center;">
-            <h1 class="my-certs">My Certificates</h1>
-        </div>
-        <div>
-            <div class="project-cont" style="display: flex; gap: 1rem;">
-                <div>
-                    <img style="height: 290px;" src="./img/cert1.png" alt="">
-                </div>
-                <div>
-                    <img style="height: 290px;" src="./img/cert2.png" alt="">
-                </div>
-                <div>
-                    <img style="height: 290px;" src="./img/cert3.png" alt="">
-                </div>
-                <div>
-                    <img style="height: 290px;" src="./img/cert4.png" alt="">
+        </section>
+    
+        <section id="cert">
+            <div style="text-align: center;">
+                <h1 class="my-certs">My Certificates</h1>
+            </div>
+            <div>
+                <div class="project-cont" style="display: flex; gap: 1rem;">
+                    <div>
+                        <img style="height: 290px;" src="./img/cert1.png" alt="">
+                    </div>
+                    <div>
+                        <img style="height: 290px;" src="./img/cert2.png" alt="">
+                    </div>
+                    <div>
+                        <img style="height: 290px;" src="./img/cert3.png" alt="">
+                    </div>
+                    <div>
+                        <img style="height: 290px;" src="./img/cert4.png" alt="">
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
+        
+        <section>
+            <footer id="footer">
+                <p style="color: white;">© 2023 Jeilah Pecson. All rights reserved.
+                </p>
+            </footer>
+        </section>
     </section>
-
-    <footer id="footer">
-        <p style="color: rgb(68, 68, 68);">© 2023 Jeilah Pecson. All rights reserved.
-        </p>
-    </footer>
+    
 </body>
 </html>
