@@ -12,8 +12,13 @@
 
     <link rel="icon" type="image/x-icon" href="./img/j.png">
 
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
     <title>My Portfolio</title>
 </head>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
 <style>
 
@@ -37,17 +42,26 @@
                     <li><a href="#About">About</a></li>
                     <li><a href="#cert">Certificates</a></li>
                 </ul>
-                <div class="icon hidden w-full md:flex md:items-center md:w-auto ul-ui-container">
-                    <img style="height: 35px;" src="./img/icons8-linkedin-48.png" alt="">
-                    <img style="height: 35px;" src="./img/icons8-facebook-48.png" alt="">
-                    <img style="height: 28px; border-radius: 5px;" src="./img/icons8-instagram-24.png" alt="">
+                <div class="hamburger">
+        
+                    <span class="bar"></span>
+    
+                    <span class="bar"></span>
+    
+                    <span class="bar"></span>
+    
+                </div>
+                <div class="icon ">
+                    <a target="_blank" role="button" href="https://www.tiktok.com/@jeilah4?_t=8hXwblO48sK&_r=1&fbclid=IwAR1_D1q0OnkfUO_moKCMNa8QZMQqxLl2q45-wxLNl6B2qyJEGVHAUcx2jpE"><img style="height: 35px;" src="./img/tik-tok.png" alt=""></a>
+                    <a target="_blank" role="button" href="https://www.facebook.com/jeilah.pecson.92"><img style="height: 35px;" src="./img/icons8-facebook-48.png" alt=""></a>
+                    <a target="_blank" role="button" href="https://www.instagram.com/pecsonjeilah?igshid=NGVhN2U2NjQ0Yg%3D%3D&fbclid=IwAR2eJsLjpDKIv_Ij6k0T_xycnr7BPcwFLgLJNaxmAn3YnyRs1ftTCX9xTj0"><img style="height: 28px; border-radius: 5px;" src="./img/icons8-instagram-24.png" alt=""></a>
                 </div>
             </nav>
         </section>
     
         <section id="home">
             <div class="main-cont">
-                <div class="disc" style="display: flex; flex-direction: column;">
+                <div class="disc" >
                     <h3 style="color: skyblue; text-shadow: 0 0 10px black; font-weight: 700; font-size: 1.2rem;">
                         Web Designer
                         <hr>
@@ -139,9 +153,11 @@
         </section>
         
         <section>
-            <footer id="footer">
-                <p style="color: white;">© 2023 Jeilah Pecson. All rights reserved.
-                </p>
+                <footer class="bg-dark text-center text-white">
+                <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2020 Copyright: 
+                <a class="text-white" href="https://mdbootstrap.com/"> Jeilah Pecson</a>
+                </div>
             </footer>
         </section>
     </section>

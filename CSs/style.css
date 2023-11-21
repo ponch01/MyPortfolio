@@ -6,6 +6,28 @@ body {
     margin: 0;
 }
 
+@media only screen and (max-width: 768px) { 
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+}
+.hamburger {
+    display: none;
+}
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -50,24 +72,9 @@ a {
 
 /* Home Section */
 
-#home {
-    height: 150%;
-    padding: 0 10rem;
-    background-color: rgb(99, 98, 98);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-.main-cont {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5rem;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
-    padding: 0 1rem;
-}
+
+
 
 .img-cont {
     background-color: #FDC8DA;
@@ -127,6 +134,14 @@ a {
         justify-content: center; 
         align-items: center;
     }
+    #home {
+        height: 100%;
+        padding: 0 10rem;
+        background-color: rgb(99, 98, 98);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     .my-projects {
         margin-bottom: 25px;
     }
@@ -174,7 +189,26 @@ a {
         row-gap: 4rem;
         border-radius: 10px;
     }
+
+    .main-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 0 1rem;
+}
    
+}
+
+@media only screen and (max-width: 767px) {
+    .disc {
+        display: flex; 
+        flex-direction: column;
+    }
+
+    
 }
 
 @media only screen and (max-width: 767px) {
@@ -183,8 +217,17 @@ a {
         flex-direction: column;
         padding: 1rem;
     }
+
+    #home {
+        height: 100%;
+        padding: 10rem 1rem;
+        background-color: rgb(99, 98, 98);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     .disc {
-        padding: 1rem;
+        width: 100%;
     }
 
     .img3 {
